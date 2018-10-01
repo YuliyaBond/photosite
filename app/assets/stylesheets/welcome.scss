@@ -1,0 +1,101 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.wrapper{
+	width: 900px;
+	margin: auto;
+}	    
+
+li{
+	list-style-type: none;
+	display: inline;
+	padding-top: 5px;
+	box-sizing: border-box;
+	
+}
+
+.nav__item {
+    text-decoration: none;
+    margin-left: 35px;
+    transition: 0.5s;
+    padding-bottom: 30px;
+    border-bottom: 1px solid transparent;
+    color: black; 
+	}
+
+.menu {
+    display: flex;
+	justify-content: center;
+	width: 100%;
+	box-sizing: border-box;
+	height: 40px;
+	align-items: center;
+
+}
+
+.banner{
+	height: 250px;
+	background: yellow;
+}
+
+.slider__content{
+	position: relative;
+    height: 210px;
+    list-style-type: none;
+	margin-top: 20px;
+
+}
+.item-slide {
+	position: absolute;
+    width: 100%;
+    opacity: 0;
+    z-index: 1;
+    box-sizing: border-box;
+	text-align: center;
+	opacity: 0;
+	z-index: 1;
+	transition: 1s;
+}
+
+.item-slide__img {
+    height: 400px; 
+}
+
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+
+.slider{
+	height: 420px;
+}
+
+.about{
+	display: block;
+}
+
+.about__discription{
+	text-align: center;
+	margin: 10px 30% 5px;
+}
+
+.about__number{
+	text-shadow: 1px 1px 2px black;
+	text-align: center;
+}
+
+.inside{
+	display: flex;
+   	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;	
+}
+.cell{
+	flex: 0 0 33%;
+	align-items: center;
+}
+.contact{
+	text-align: center;
+}
